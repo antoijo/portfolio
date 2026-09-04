@@ -1,0 +1,51 @@
+# Antoine Josnin — Product Engineer / CTO
+
+> Antoine Josnin est Product Engineer / CTO indépendant (Lyon — Savoie, France),
+> fondateur du collectif Akago. Il s'occupe du produit autant que du code : définir
+> ce qu'on construit, pour qui, dans quel ordre, puis le développer et le mettre en
+> production. Un seul interlocuteur pour les deux. Apps mobiles, web et SaaS,
+> principalement en Flutter (web, iOS et Android avec une seule base de code),
+> Node.js et TypeScript.
+
+Points clés :
+- 15 ans d'expérience, plus de 20 structures accompagnées, des apps en production
+  depuis 4 ans, 5/5 sur Malt avec une réponse en moins d'une heure.
+- Trois services : cadrer et prototyper (ateliers, périmètre MVP, prototype Figma
+  testé avec de vrais utilisateurs, cahier des charges, budget et roadmap) ;
+  concevoir et développer (Flutter web / iOS / Android, architecture serveur et API,
+  temps réel, géolocalisation, paiement, hors-ligne, publication sur les stores) ;
+  CTO partagé à temps partiel (direction technique, recrutement, qualité,
+  monitoring, dossiers de financement BPI, France 2030, CII).
+- Agréé Crédit d'Impôt Innovation (CII) : jusqu'à 20 % des dépenses de prototype
+  remboursées pour les PME, dispositif prorogé jusqu'à fin 2027.
+- Méthode : cadrage (semaines 1–3), prototype testé (4–6), sprints courts avec démo
+  chaque vendredi (7–12), mise en ligne (13), puis accompagnement. Le client
+  possède tout : code, maquettes, documentation, accès serveurs. Données hébergées
+  en France, privacy by design.
+- Seul ou en équipe : en direct, ou avec le collectif Akago (recherche utilisateur,
+  UX/UI, développement, publication) quand le projet le demande.
+- Premier échange : visio découverte de 30 minutes.
+
+## Réalisations
+
+- [Libélaw](https://antoinejosnin.fr/projets/libelaw/) : réseau de confiance entre avocats pour la postulation et la substitution (LegalTech, SaaS web + mobile). Product engineer et lead dev depuis septembre 2024 ; 4 500 avocats référencés, un millier de missions publiées.
+- [Ping](https://antoinejosnin.fr/projets/ping/) : les rencontres dans la vraie vie, dans des lieux partenaires (app sociale iOS + Android). Cadrage du MVP, géolocalisation et signaux temps réel, publication sur les stores, 2026.
+- [Moofize](https://antoinejosnin.fr/projets/moofize/) : point de rencontre entre professionnels de santé et industrie de la santé (santé B2B, plateforme web). CTO et lead dev depuis 2020.
+- [FamyHelp](https://antoinejosnin.fr/projets/famyhelp/) : la première application 100 % gratuite dédiée aux aidants (web, iOS, Android). Lead developer 2020 → 2023.
+- [MyBul · Bulle d'Autonomie](https://antoinejosnin.fr/projets/mybul/) : l'outil qui relie les proches aidants à leur coordinatrice autonomie et les entreprises à leurs salariés aidants (mobile + web). Lead developer Flutter 2022 → 2024.
+- [YippyLingo](https://antoinejosnin.fr/projets/yippylingo/) : app compagnon d'un kit d'anglais pour enfants (iOS, Android, web). Reprise et développement Flutter 2023 → 2025.
+- [Diagoplus](https://antoinejosnin.fr/projets/diagoplus/) : l'outil des diagnostiqueurs plomb et amiante, saisie hors ligne sur le chantier et restitution au bureau (app terrain + SaaS web). Participation au front Flutter, 2024.
+- [Filou](https://antoinejosnin.fr/projets/filou/) : la routine des petits, le temps comme un chemin, pour les 3–8 ans (iPad et iPhone). Projet personnel, du cahier des charges à l'App Store en cinq jours, août 2026.
+
+## Pages
+
+- [Accueil](https://antoinejosnin.fr/) : services, réalisations, méthode, témoignages, parcours, contact.
+- [Mentions légales](https://antoinejosnin.fr/mentions-legales/) : AKAGO SAS, Challes-les-Eaux (Savoie), France.
+
+## Contact
+
+- Email : antoine@akago.fr
+- Réserver une visio de 30 minutes : https://tally.so/r/wdA0DA
+- Malt : https://www.malt.fr/profile/antoinejosnin
+- LinkedIn : https://www.linkedin.com/in/antoinejosnin/
+- Collectif Akago : https://akago.fr/

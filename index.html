@@ -28,24 +28,47 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Antoine Josnin",
-    "jobTitle": "Product Engineer / CTO",
-    "url": "https://antoinejosnin.fr/",
-    "image": "https://antoinejosnin.fr/assets/people/antoine-josnin.png",
-    "email": "mailto:antoine@akago.fr",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Akago SAS",
-      "url": "https://akago.fr/",
-      "address": { "@type": "PostalAddress", "addressLocality": "Challes-les-Eaux", "addressCountry": "FR" }
-    },
-    "address": { "@type": "PostalAddress", "addressLocality": "Challes-les-Eaux", "addressRegion": "Savoie", "addressCountry": "FR" },
-    "sameAs": ["https://www.linkedin.com/in/antoinejosnin/", "https://www.malt.fr/profile/antoinejosnin"],
-    "knowsAbout": ["Flutter", "Node.js", "TypeScript", "Product management", "Mobile apps", "SaaS"]
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://antoinejosnin.fr/#antoine",
+        "name": "Antoine Josnin",
+        "jobTitle": "Product Engineer / CTO",
+        "description": "Product Engineer / CTO indépendant, Lyon — Savoie : cadrage produit et développement d'apps mobiles, web et SaaS (Flutter, Node.js, TypeScript). Un seul interlocuteur pour le produit et le code.",
+        "url": "https://antoinejosnin.fr/",
+        "image": "https://antoinejosnin.fr/assets/people/antoine-josnin.png",
+        "email": "mailto:antoine@akago.fr",
+        "hasOccupation": { "@type": "Occupation", "name": "Product Engineer / CTO", "occupationLocation": { "@type": "Country", "name": "France" } },
+        "worksFor": {
+          "@type": "Organization",
+          "@id": "https://akago.fr/#organization",
+          "name": "Akago SAS",
+          "url": "https://akago.fr/",
+          "address": { "@type": "PostalAddress", "addressLocality": "Challes-les-Eaux", "addressCountry": "FR" }
+        },
+        "address": { "@type": "PostalAddress", "addressLocality": "Challes-les-Eaux", "addressRegion": "Savoie", "addressCountry": "FR" },
+        "areaServed": "FR",
+        "knowsLanguage": "fr",
+        "sameAs": ["https://www.linkedin.com/in/antoinejosnin/", "https://www.malt.fr/profile/antoinejosnin", "https://akago.fr/"],
+        "knowsAbout": ["Flutter", "Dart", "Node.js", "TypeScript", "Product management", "Applications mobiles", "SaaS", "Crédit d'Impôt Innovation"],
+        "makesOffer": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cadrer et prototyper", "description": "Ateliers, parcours utilisateurs, périmètre MVP, prototype Figma testé avec de vrais utilisateurs, cahier des charges, estimation de budget et roadmap technique." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Concevoir et développer", "description": "Flutter (web, iOS, Android), architecture serveur et API, temps réel, géolocalisation, paiement, hors-ligne, publication App Store / Google Play, comptes développeur au nom du client." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CTO partagé", "description": "Direction technique à temps partiel, recrutement tech, qualité (code testé, relu, documenté), monitoring, dossiers techniques de financement (BPI, France 2030, CII)." } }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://antoinejosnin.fr/#site",
+        "url": "https://antoinejosnin.fr/",
+        "name": "Antoine Josnin — Product Engineer / CTO",
+        "inLanguage": "fr",
+        "author": { "@id": "https://antoinejosnin.fr/#antoine" }
+      }
+    ]
   }
   </script>
-  <script defer data-domain="antoinejosnin.fr" src="https://plausible.io/js/script.js"></script>
+  <script defer data-domain="antoinejosnin.fr" data-api="https://plausible.io/api/event" src="/assets/js/stats.js"></script>
 </head>
 <body>
 
