@@ -39,13 +39,14 @@ akago.fr). Établi le 4 septembre 2026, jour de la mise en ligne.
 
 ## Phase 2 — Propositions (à valider)
 
-- [ ] **Titres orientés recherche** : le `<title>` de l'accueil vient du handoff
-      (« Product Engineer / CTO, apps mobiles, web & SaaS »). Ajouter le vocabulaire
-      tapé par la cible (« freelance », « Flutter », « Lyon ») se discute : c'est de la
-      copie, donc décision d'Antoine.
-- [ ] **Backlink depuis akago.fr** : lier antoinejosnin.fr depuis la page équipe
-      d'akago.fr (`about.html`) — le lien le plus naturel. Modification d'un autre
-      projet, à faire sur feu vert.
+- [x] **Titres orientés recherche** (4/09, validé par Antoine) : `<title>` de l'accueil
+      « Antoine Josnin — Développeur Flutter freelance & CTO à temps partiel · Apps
+      mobiles, web et SaaS · Lyon, Savoie », description et `og:title` alignés. Le
+      libellé « Product Engineer / CTO » du handoff reste dans la page et en `jobTitle`.
+- [x] **Backlink depuis akago.fr** (4/09, commit `e4d469f` d'akago_landing) : le nom
+      d'Antoine pointe vers antoinejosnin.fr sur l'accueil (bloc équipe) et sur
+      « À propos », et le JSON-LD `ProfessionalService` d'akago.fr déclare `founder`
+      avec l'URL du portfolio.
 - [ ] **Pages « réalisations » = déjà là** : les 8 pages projets répondent à la longue
       traîne (« application pour avocats », « app pour aidants »…). Compléter les
       résultats chiffrés (Ping, Moofize, FamyHelp) dès que fournis.
