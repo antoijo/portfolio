@@ -31,6 +31,11 @@ visuelle), sauf mention contraire.
     raison : textes de la carte « En direct avec moi » en blanc opaque, note
     « Architecture du produit… » (Diagoplus) en gris atténué standard.
 
+18. **Poids du CSS** : `styles.css` fait 33 ko bruts (≈ 7 ko gzippés, ce que sert
+    GitHub Pages) pour une cible README de 30 ko. Lighthouse mobile : accueil
+    94 / 100 / 100 / 100, page Filou 94 / 100 / 100 / 100. Je n'ai pas mutilé la
+    feuille pour gagner 3 ko ; à voir si la cible est stricte.
+
 ## Écarts README ↔ canvas (tranchés côté canvas)
 
 5. Nom dans la nav : 20 px (canvas) au lieu de 18 px (README).
