@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Filou — Antoine Josnin</title>
+  <meta name="description" content="Filou, la routine des petits : un ver avance sur le chemin de la journée à la vitesse du temps. Projet personnel, du cahier des charges à l'App Store en cinq jours.">
+  <link rel="canonical" href="https://antoinejosnin.fr/projets/filou/">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Antoine Josnin">
+  <meta property="og:title" content="Filou — Antoine Josnin">
+  <meta property="og:description" content="La journée des petits, étape par étape. Un ver qui avance sur le chemin de la journée, à la vitesse du temps qui passe.">
+  <meta property="og:url" content="https://antoinejosnin.fr/projets/filou/">
+  <meta property="og:image" content="https://antoinejosnin.fr/og/filou.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#FBF7F0">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"SoftwareApplication","name":"Filou — La routine des petits","applicationCategory":"LifestyleApplication","operatingSystem":"iOS 15+, iPadOS","url":"https://antoinejosnin.fr/projets/filou/","description":"La journée des petits, étape par étape. Un ver qui avance sur le chemin de la journée, à la vitesse du temps qui passe.","downloadUrl":"https://apps.apple.com/fr/app/filou-la-routine-des-petits/id6804604137","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"author":{"@type":"Person","name":"Antoine Josnin","url":"https://antoinejosnin.fr/"}},
+    {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://antoinejosnin.fr/"},{"@type":"ListItem","position":2,"name":"Réalisations","item":"https://antoinejosnin.fr/#realisations"},{"@type":"ListItem","position":3,"name":"Filou","item":"https://antoinejosnin.fr/projets/filou/"}]}
+  ]}
+  </script>
+  <script defer data-domain="antoinejosnin.fr" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav nav--project">
+    <a class="brand" href="/" aria-label="Antoine Josnin, accueil">
+      <span class="portrait portrait--nav"><img src="/assets/people/antoine-josnin-detoure.png" alt="" width="672" height="672"></span>
+      <span>Antoine Josnin</span>
+    </a>
+    <a class="nav-back" href="/#realisations">← Réalisations</a>
+    <a class="btn btn--nav" href="https://tally.so/r/wdA0DA" data-event="Visio">Réserver une visio</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="wrap project-hero" aria-labelledby="titre">
+    <div class="project-title">
+      <p class="project-kind"><img src="/assets/icons/filou.png" alt="" width="256" height="256" style="border-radius:11px"><span class="kicker">Projet personnel · app iPad et iPhone · 3–8 ans</span></p>
+      <h1 id="titre">Filou</h1>
+      <p class="lead">La journée des petits, étape par étape. Un ver qui avance sur le chemin de la journée, à la vitesse du temps qui passe.</p>
+      <div class="stores">
+        <a href="https://apps.apple.com/fr/app/filou-la-routine-des-petits/id6804604137" target="_blank" rel="noopener" data-event="Store"><img src="/assets/badges/app-store-fr.svg" alt="Télécharger dans l'App Store" width="127" height="40"></a>
+      </div>
+    </div>
+    <dl class="meta">
+      <div><dt>Rôle</dt><dd>Produit, design et développement</dd></div>
+      <div><dt>Période</dt><dd>août 2026 → 1.0 sur l'App Store le 25 août</dd></div>
+      <div><dt>Stack</dt><dd class="mono">Flutter · Dart · SQLite (drift) · Figma</dd></div>
+      <div><dt>Plateformes</dt><dd>iPad (paysage), iPhone (portrait) · iOS 15+</dd></div>
+    </dl>
+  </section>
+
+  <div class="wrap">
+    <figure class="mosaic mosaic--project mosaic--filou" aria-label="Écran enfant de Filou sur iPad">
+      <button class="shot shot--tablet" type="button" style="--t:56px;--w:860px"><img src="/assets/showcase/filou-ipad-enfant.webp" alt="Écran enfant de Filou sur iPad, 7h55, Filou sur la pastille L'habillage" width="1600" height="1200"></button>
+      <img class="mosaic-art" src="/assets/filou/filou-walking.svg" alt="Filou, la mascotte, en route" width="220" height="220">
+      <figcaption class="mosaic-foot"><span class="pill">iPad · un jour d'École · 7h55</span></figcaption>
+    </figure>
+  </div>
+
+  <section class="wrap prr" aria-label="Problème, rôle, résultat">
+    <div><p class="label">Problème</p><p>Les routines visuelles pour enfants montrent une liste, pas le temps. Un enfant de 4 ans ne sait pas si « les dents » c'est dans deux minutes ou dans une heure, et « dépêche-toi » ne veut rien dire pour lui. Les applis existantes ajoutent minuteurs, récompenses et sons : de la pression.</p></div>
+    <div><p class="label">Rôle</p><p>Projet personnel édité par Akago : cahier des charges, fichier Figma complet, développement Flutter, tests, CI vers TestFlight, fiche App Store. Produit, design et code, seul.</p></div>
+    <div><p class="label">Résultat</p><p>Du cahier des charges à l'App Store en cinq jours. Version 1.0 en ligne depuis le 25 août 2026, gratuite, sans compte, sans pub, sans collecte de données. Version 1.1 en chantier.</p></div>
+  </section>
+
+  <section class="wrap psec" aria-labelledby="t-concept">
+    <div class="section-head">
+      <h2 class="h2-sub" id="t-concept">Le temps devient un espace</h2>
+      <p class="kicker">01 — Le concept</p>
+    </div>
+    <div class="gallery--wide" style="display:grid;gap:20px;align-items:start">
+      <figure class="card frame">
+        <div class="strip bg-filou-day"><img src="/assets/showcase/filou-figma-ecole-strip.webp" alt="Frise des écrans enfant d'une journée École, du réveil au dodo" width="2400" height="344" loading="lazy"></div>
+        <figcaption class="caption"><b>Une journée École, du réveil au dodo</b><span class="mono">frise Figma · à faire défiler</span></figcaption>
+      </figure>
+      <div class="stack">
+        <div class="card feature"><p class="feature-title"><i class="dot" style="--dot:#E96A8D"></i>Espace ∝ temps</p><p>Sur le chemin, 1 minute = une longueur fixe (18 px sur tablette). Une journée d'école s'étire, un dîner est court. « C'est bientôt » se voit.</p></div>
+        <div class="card feature"><p class="feature-title"><i class="dot" style="--dot:#45B5AC"></i>Un seul écran, zéro navigation</p><p>Pas de menu côté enfant. La tablette se pose dans la cuisine, Filou avance tout seul. Le fond change avec la période.</p></div>
+        <div class="card feature"><p class="feature-title"><i class="dot" style="--dot:#9B7EDE"></i>Zéro pression</p><p>Rien ne clignote, pas de compte à rebours, pas de récompense. La checklist d'un moment est facultative et se remet à zéro chaque jour.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap psec" aria-labelledby="t-enfant">
+    <div class="section-head">
+      <h2 class="h2-sub" id="t-enfant">Un coup d'œil suffit</h2>
+      <p class="kicker">02 — Côté enfant</p>
+    </div>
+    <div class="grid-3">
+      <figure class="card frame">
+        <div class="phones phones--tall bg-filou-day"><div class="phone phone--thick phone--dark" style="transform:rotate(-3deg)"><img src="/assets/showcase/filou-iphone-enfant.webp" alt="Écran enfant sur iPhone : le chemin à 7h53" width="554" height="1200" loading="lazy"></div></div>
+        <figcaption class="caption"><b>Le chemin</b><span class="mono">iPhone · 7h53</span></figcaption>
+      </figure>
+      <figure class="card frame">
+        <div class="phones phones--tall bg-filou-sky"><div class="phone phone--thick phone--dark" style="transform:rotate(3deg)"><img src="/assets/showcase/filou-iphone-taches.webp" alt="Checklist du moment dépliée, une tâche cochée" width="554" height="1200" loading="lazy"></div></div>
+        <figcaption class="caption"><b>Les petites listes, facultatives</b><span class="mono">chaussures · manteau</span></figcaption>
+      </figure>
+      <figure class="card frame">
+        <div class="phones phones--tall bg-filou-night"><div class="phone phone--thick phone--dark" style="transform:rotate(-2deg)"><img src="/assets/showcase/filou-iphone-nuit.webp" alt="La veilleuse : fond nuit et heure du prochain réveil" width="554" height="1200" loading="lazy"></div></div>
+        <figcaption class="caption"><b>Le soir, une veilleuse</b><span class="mono">Réveil à 8h00</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="wrap psec" aria-labelledby="t-parents">
+    <div class="section-head">
+      <h2 class="h2-sub" id="t-parents">On règle une bonne fois</h2>
+      <p class="kicker">03 — Côté parents</p>
+    </div>
+    <p class="section-copy">Des journées types (École, Mercredi, Week-end, Vacances) attribuées aux jours de la semaine. Chaque modification annonce son effet avant validation : « Les dents et toute la suite se décaleront de 10 min ». Accès par un bouton ⚙ et un code à 4 chiffres.</p>
+    <div class="grid-2" style="margin-top:40px">
+      <figure class="card frame">
+        <img class="tablet" src="/assets/showcase/filou-ipad-planning.webp" alt="Planning hebdomadaire des journées types" width="1600" height="1200" loading="lazy">
+        <figcaption class="caption"><b>Le planning</b><span class="mono">iPad · journées types</span></figcaption>
+      </figure>
+      <figure class="card frame">
+        <img class="tablet" src="/assets/showcase/filou-ipad-editeur.webp" alt="Éditeur d'une journée type : matin, après-midi, soir" width="1600" height="1200" loading="lazy">
+        <figcaption class="caption"><b>L'éditeur d'une journée</b><span class="mono">matin · après-midi · soir</span></figcaption>
+      </figure>
+      <figure class="card frame">
+        <img class="tablet" src="/assets/showcase/filou-ipad-fiche.webp" alt="Fiche d'un moment avec l'impact annoncé de la modification" width="1600" height="1200" loading="lazy">
+        <figcaption class="caption"><b>L'impact annoncé avant d'enregistrer</b><span class="mono">cascade</span></figcaption>
+      </figure>
+      <figure class="card frame">
+        <img class="tablet" src="/assets/showcase/filou-ipad-code.webp" alt="Création du code parent à 4 chiffres" width="1600" height="1200" loading="lazy">
+        <figcaption class="caption"><b>L'accès parents</b><span class="mono">code à 4 chiffres</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <section class="brand-block" aria-labelledby="t-identite">
+      <div class="brand-copy">
+        <p class="kicker" id="t-identite">04 — Identité</p>
+        <img class="wordmark" src="/assets/filou/wordmark-cream.svg" alt="Wordmark filou" width="200" height="60" loading="lazy">
+        <p>Filou le ver : corps corail, tête ronde, yeux crème. Baloo 2 pour les titres, Nunito pour les textes. Quatre périodes, quatre fonds. Pas de gris : toute surface secondaire est de l'encre à faible opacité sur crème.</p>
+        <ul class="swatches">
+          <li class="swatch"><i style="--dot:#F5B841"></i>matin</li>
+          <li class="swatch"><i style="--dot:#7CC3E8"></i>journée</li>
+          <li class="swatch"><i style="--dot:#EF8A5C"></i>soir</li>
+          <li class="swatch"><i style="--dot:#3A3F7A"></i>nuit</li>
+          <li class="swatch"><i style="--dot:#E96A8D"></i>corail</li>
+          <li class="swatch"><i style="--dot:#45B5AC"></i>turquoise</li>
+          <li class="swatch"><i style="--dot:#7FB77E"></i>vert</li>
+          <li class="swatch"><i style="--dot:#9B7EDE"></i>violet</li>
+        </ul>
+      </div>
+      <div class="brand-visuals">
+        <img src="/assets/showcase/filou-figma-mascot.webp" alt="Planche mascotte : poses, têtes, icônes jour et nuit, wordmarks" width="1600" height="799" loading="lazy">
+        <img src="/assets/showcase/filou-figma-pictos.webp" alt="Les 16 pictos de moments en crème sur nuit" width="1600" height="711" loading="lazy">
+      </div>
+    </section>
+  </div>
+
+  <section class="wrap two-col" aria-label="Chronologie et fabrication">
+    <div class="list-block">
+      <p class="label">Chronologie · cinq jours</p>
+      <dl class="kv kv--dates">
+        <div><dt>21 août</dt><dd>Cahier des charges v1 : concept, modèle métier, règles d'édition, inventaire des écrans.</dd></div>
+        <div><dt>22 août</dt><dd>Fichier Figma complet (63 composants, ~30 écrans) puis démarrage du code : foundations générées, domaine, écran enfant, accès parent, planning, réglages, éditeur.</dd></div>
+        <div><dt>24 août</dt><dd>Icône, finitions, CI GitHub Actions → TestFlight, fiche App Store, build 1.0.0.</dd></div>
+        <div><dt>25 août</dt><dd>Publication sur l'App Store.</dd></div>
+        <div><dt>Septembre</dt><dd>Version 1.1 en chantier.</dd></div>
+      </dl>
+    </div>
+    <div class="list-block">
+      <p class="label">Comment c'est fait</p>
+      <dl class="kv">
+        <div><dt>Framework</dt><dd>Flutter 3.47 / Dart 3.13, iOS 15+</dd></div>
+        <div><dt>Architecture</dt><dd>Domaine pur → SQLite (drift) → cubits → présentation. Either pour les erreurs.</dd></div>
+        <div><dt>Le chemin</dt><dd>Serpentin de Bézier en abscisse curviligne, tête interpolée à la seconde, défilement avec inertie.</dd></div>
+        <div><dt>Données</dt><dd>100 % local : 6 tables SQLite, code parent haché, rien ne sort de l'appareil.</dd></div>
+        <div><dt>Qualité</dt><dd>Plus d'une centaine de tests, captures store automatisées sur simulateur.</dd></div>
+        <div><dt>Livraison</dt><dd>GitHub Actions → TestFlight sur tag de version.</dd></div>
+        <div><dt>Volume</dt><dd>≈ 17 000 lignes de Dart, une trentaine de commits pour la 1.0.</dd></div>
+      </dl>
+      <p class="footnote">Code source privé.</p>
+    </div>
+  </section>
+
+  <section class="wrap psec" aria-label="Et après">
+    <div class="grid-2" style="align-items:stretch">
+      <div class="card card-text">
+        <p class="label">Et après · 1.1 en chantier</p>
+        <p>Synchronisation iCloud entre appareils et entre les deux parents · widget d'écran d'accueil et Live Activity du matin · retour parent depuis l'app · micro-interactions du chemin · version anglaise.</p>
+      </div>
+      <div class="night-card bg-filou-night">
+        <img src="/assets/filou/filou-sleeping.svg" alt="Filou endormi" width="96" height="96" loading="lazy">
+        <div>
+          <strong>Ce que Filou ne fait pas</strong>
+          <span>Pas de compte, pas de publicité, pas de collecte de données. Tout reste sur l'appareil, aucune connexion nécessaire.</span>
+          <span class="mono">Confidentialité · Assistance</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap cta-final" aria-label="Contact">
+    <h2>Une app à lancer en quelques semaines&nbsp;? Parlons‑en 30 minutes.</h2>
+    <div class="cta-row">
+      <a class="btn" href="https://tally.so/r/wdA0DA" data-event="Visio">Réserver une visio</a>
+      <a class="btn btn--secondary" href="/projets/libelaw/">Projet suivant : Libélaw →</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap site-footer">
+  <nav aria-label="Pied de page">
+    <a href="/#services">Services</a>
+    <a href="/#realisations">Réalisations</a>
+    <a href="/#methode">Méthode</a>
+    <a href="/#parcours">Parcours</a>
+    <a href="/#contact">Contact</a>
+    <a href="/mentions-legales/">Mentions légales</a>
+  </nav>
+  <p class="mono">AKAGO SAS, Challes-les-Eaux · Fait en Savoie</p>
+</footer>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
