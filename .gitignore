@@ -18,11 +18,7 @@ design/handoff/uploads/
 .vscode/
 .idea/
 
-# Visuels des projets dont l'accord client est en attente (MyBul, Diagoplus, Leezay) :
+# Visuels du projet dont l'accord client est en attente (Leezay) :
 # convertis localement depuis design/handoff/uploads/, publiés seulement après accord.
-assets/showcase/mybul-*
-assets/showcase/diagoplus-*
 assets/showcase/leezay-*
-og/mybul.png
-og/diagoplus.png
 og/leezay.png

@@ -518,9 +518,10 @@ a.card-compact:hover{transform:translateY(-3px);border-color:var(--ink)}
 .phones{height:300px;padding-top:28px;gap:20px;border-radius:var(--r-sm)}
 .phones--tall{height:320px}
 .phone{width:150px;border-radius:22px;border-width:5px}
-.caption{padding:14px 2px 0;gap:10px}
+.caption{padding:14px 2px 0;gap:4px 10px;flex-wrap:wrap}
 .caption b{font-size:14px}
-.caption .mono{font-size:11px}
+.caption .mono{font-size:11px;white-space:normal}
+.section-head .kicker,.card-compact-date{white-space:normal}
 .two-col{gap:40px}
 .list-block{gap:12px}
 .rules li{padding:12px 0;font-size:15px}

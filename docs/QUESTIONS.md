@@ -7,12 +7,11 @@ visuelle), sauf mention contraire.
 
 ## Accords clients et publication
 
-1. **MyBul, Diagoplus, Leezay** : pages construites, mais leurs visuels Figma ne
-   sont pas dans le dépôt (public) tant que l'accord écrit n'est pas là. En
-   production ces trois pages sont `noindex`, hors sitemap, non liées depuis
-   l'accueil (cartes compactes sans lien) et sautées dans le chaînage « Projet
-   suivant ». Pour publier l'une d'elles : `docs/PUBLISH.md`. Ping, Moofize et
-   FamyHelp reprennent des captures et citations déjà publiques sur akago.fr.
+1. **MyBul et Diagoplus publiés** le 4 septembre au soir sur ton feu vert.
+   **Leezay** reste hors ligne (visuels hors du dépôt public, `noindex`, hors
+   sitemap, non liée, sautée dans le chaînage) jusqu'à l'accord de Rémy Barbeault
+   et la sortie de la 1.0 : `docs/PUBLISH.md`. Ping, Moofize et FamyHelp
+   reprennent des captures et citations déjà publiques sur akago.fr.
 2. **Malt / LinkedIn** : URLs retrouvées par recherche
    (`malt.fr/profile/antoinejosnin`, `linkedin.com/in/antoinejosnin`). À confirmer.
 3. **Réservation** : tous les CTA pointent sur le Tally d'Akago
@@ -67,3 +66,6 @@ visuelle), sauf mention contraire.
     comme sur 4a.
 16. Placeholders conservés tels quels : `[à préciser]` (disponibilité),
     `[… : à compléter]` (résultats Ping, Moofize, FamyHelp).
+19. Portrait et logos « HD » : ces items viennent de la liste B du TODO du handoff
+    (portrait détouré marqué provisoire, logos MyBul / Diagoplus / Leezay en icônes).
+    Antoine trouve le rendu actuel correct → considérés comme réglés, rien à fournir.
