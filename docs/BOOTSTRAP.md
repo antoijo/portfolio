@@ -54,7 +54,8 @@ gh api -X PUT repos/antoijo/portfolio/pages -F https_enforced=true   # une fois 
 
 1. ✅ **Socle** (4 septembre) : dépôt, `CNAME`, `_config.yml`, `.gitignore`, README,
    CLAUDE.md, outils, handoff, assets, page provisoire.
-2. ⏳ Push, activation de Pages, DNS Scaleway, certificat.
+2. ✅ Push de `main` et activation de Pages avec le domaine (4 septembre, 16 h 30).
+   ⏳ DNS Scaleway (tableau ci-dessus), puis certificat et « Enforce HTTPS ».
 3. Polices woff2 self-hostées + `styles.css` (tokens, reset, typographie, composants).
 4. Accueil desktop (`1d`) et mobile (`4a`), menu mobile (`7b`), `site.js`.
 5. Gabarit projet (`3a` / `7a`) puis les 9 pages, badges stores, chaînage.
