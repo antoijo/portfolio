@@ -1,0 +1,19 @@
+# Configuration locale Claude (les skills projet, eux, sont versionnés)
+.claude/*
+!.claude/skills/
+.serena/
+
+# Dépendances et artefacts d'outillage
+node_modules/
+tools/screenshots/
+tools/reports/
+
+# Visuels clients du handoff Claude Design : NON versionnés tant que les
+# accords ne sont pas signés (dépôt public). Source : « Antoine Josnin
+# Porfolio.zip » (export Claude Design du 04/09/2026), cf. docs/BOOTSTRAP.md.
+design/handoff/uploads/
+
+# macOS / éditeurs
+.DS_Store
+.vscode/
+.idea/

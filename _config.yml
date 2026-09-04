@@ -1,0 +1,12 @@
+# Configuration GitHub Pages (Jekyll, build « legacy » depuis main / racine).
+# Tout ce qui n'est pas le site est versionné mais EXCLU de la publication.
+# (Les fichiers et dossiers commençant par "." ou "_" sont déjà ignorés.)
+exclude:
+  - README.md
+  - CLAUDE.md
+  - package.json
+  - package-lock.json
+  - node_modules/
+  - tools/
+  - docs/
+  - design/

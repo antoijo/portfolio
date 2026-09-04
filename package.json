@@ -1,0 +1,16 @@
+{
+  "name": "antoinejosnin-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portfolio personnel d'Antoine Josnin (site statique, antoinejosnin.fr).",
+  "type": "module",
+  "scripts": {
+    "serve": "python3 -m http.server 7364",
+    "shot": "node tools/shot.mjs",
+    "audit": "node tools/audit.mjs"
+  },
+  "devDependencies": {
+    "lighthouse": "^12.2.1",
+    "playwright": "^1.49.0"
+  }
+}
