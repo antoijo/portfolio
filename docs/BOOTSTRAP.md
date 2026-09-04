@@ -56,10 +56,21 @@ gh api -X PUT repos/antoijo/portfolio/pages -F https_enforced=true   # une fois 
    CLAUDE.md, outils, handoff, assets, page provisoire.
 2. ✅ Push de `main` et activation de Pages avec le domaine (4 septembre, 16 h 30).
    ⏳ DNS Scaleway (tableau ci-dessus), puis certificat et « Enforce HTTPS ».
-3. Polices woff2 self-hostées + `styles.css` (tokens, reset, typographie, composants).
-4. Accueil desktop (`1d`) et mobile (`4a`), menu mobile (`7b`), `site.js`.
-5. Gabarit projet (`3a` / `7a`) puis les 9 pages, badges stores, chaînage.
-6. SEO : titres, descriptions, canonical, JSON-LD, sitemap, robots, OG (`8a` / `8b`), favicon, Plausible.
-7. Qualité : Lighthouse ≥ 90 × 4, clavier, contrastes, validation HTML.
-8. Contenus ⏳ (liste B du TODO) : disponibilité, chiffres par projet, URL Tally,
-   accords clients, portrait HD, logos HD.
+3. ✅ Polices woff2 (variables, sous-ensemble latin de Google Fonts, mêmes fichiers
+   qu'akago.fr) + `styles.css` (tokens, reset, typographie, composants, responsive
+   1280 → 390, reduced-motion). Visuels du handoff convertis en WebP (`cwebp -q 82`,
+   desktop ≤ 1600 px, mobile 750–780 px).
+4. ✅ Accueil desktop (`1d`) et mobile (`4a`), menu mobile (`7b`), `site.js`.
+   **Déployé le 4 septembre à 17 h** (commit `f1b1337`).
+5. ✅ Gabarit projet (`3a` / `7a`) et les 9 pages, badges stores officiels
+   (`assets/badges/`), chaînage. MyBul, Diagoplus, Leezay gardés hors ligne
+   (`docs/PUBLISH.md`). **Déployé à 17 h 15** (commit `debf6de`).
+6. ✅ SEO : titres, descriptions, canonical, JSON-LD (`Person`, `SoftwareApplication`
+   + `BreadcrumbList`), `sitemap.xml`, `robots.txt`, OG `8a` / `8b` rendues par
+   `tools/og.mjs` (Playwright), favicon « AJ » (PNG 32/192/512, ICO, apple-touch 180),
+   Plausible.
+7. Qualité : Lighthouse ≥ 90 × 4, clavier, contrastes, validation HTML (Nu : OK sur
+   les pages testées).
+8. Contenus ⏳ (liste B du TODO) : disponibilité, chiffres par projet, URL de
+   réservation (Calendly ou autre, à la place du Tally d'Akago), accords clients,
+   portrait HD, logos HD. Questions ouvertes : `docs/QUESTIONS.md`.

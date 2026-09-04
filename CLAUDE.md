@@ -60,4 +60,8 @@ modifier à l'aveugle. Objectif Lighthouse ≥ 90 sur les 4 axes, mobile et desk
 - `design/handoff/uploads/` (visuels clients) est **hors git** : dépôt public,
   accords en attente. Source : le zip d'export Claude Design, cf. `docs/BOOTSTRAP.md`.
 - Commits en français, titre seul, **jamais de signature** (`Co-Authored-By`,
-  « Generated with Claude Code »). Demander avant de push.
+  « Generated with Claude Code »). Push direct sur `main` autorisé (= déploiement) ;
+  prévenir Antoine à chaque déploiement.
+- Trois pages projets sont gardées hors ligne en attendant l'accord client
+  (MyBul, Diagoplus, Leezay) : procédure de publication dans `docs/PUBLISH.md`.
+  Les questions ouvertes sur le handoff sont dans `docs/QUESTIONS.md`.

@@ -17,12 +17,13 @@
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#FBF7F0">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="/assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="/assets/showcase/desktop-libelaw-dashboard.webp" imagesrcset="/assets/showcase/desktop-libelaw-dashboard-640.webp 640w, /assets/showcase/desktop-libelaw-dashboard.webp 1140w" imagesizes="(max-width: 719px) 320px, 520px">
   <link rel="stylesheet" href="/styles.css">
   <script type="application/ld+json">
   {
@@ -51,7 +52,7 @@
 <header class="site-header">
   <div class="wrap nav">
     <a class="brand" href="/" aria-label="Antoine Josnin, accueil">
-      <span class="portrait portrait--nav"><img src="/assets/people/antoine-josnin-detoure.png" alt="" width="672" height="672"></span>
+      <span class="portrait portrait--nav"><img src="/assets/people/antoine-josnin-detoure.webp" alt="" width="288" height="288"></span>
       <span>Antoine Josnin</span>
     </a>
     <nav class="nav-links" aria-label="Sections">
@@ -69,7 +70,7 @@
 <div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu" hidden>
   <div class="menu-bar">
     <a class="brand" href="/" aria-label="Antoine Josnin, accueil">
-      <span class="portrait portrait--nav"><img src="/assets/people/antoine-josnin-detoure.png" alt="" width="672" height="672"></span>
+      <span class="portrait portrait--nav"><img src="/assets/people/antoine-josnin-detoure.webp" alt="" width="288" height="288"></span>
       <span>Antoine Josnin</span>
     </a>
     <button class="menu-close" type="button" aria-label="Fermer le menu"></button>
@@ -102,7 +103,7 @@
   <section class="wrap hero" aria-labelledby="titre">
     <div class="hero-copy">
       <div class="hero-id">
-        <button class="portrait portrait--hero" type="button" aria-label="Changer l'angle du portrait"><img src="/assets/people/antoine-josnin-detoure.png" alt="Portrait d'Antoine Josnin" width="672" height="672" fetchpriority="high"></button>
+        <button class="portrait portrait--hero" type="button" aria-label="Changer l'angle du portrait"><img src="/assets/people/antoine-josnin-detoure.webp" alt="Portrait d'Antoine Josnin" width="288" height="288"></button>
         <p class="mono">Product Engineer / CTO<br><span>App mobile, web &amp; SaaS · Lyon — Savoie</span></p>
       </div>
       <h1 class="display" id="titre">Je m'occupe du produit autant que du code.</h1>
@@ -113,11 +114,11 @@
       </div>
     </div>
     <figure class="mosaic mosaic--hero" aria-label="Captures d'écran de projets">
-      <button class="shot shot--desktop shot--no-mobile" type="button" style="--l:-60px;--t:36px;--w:520px;--r:-3deg"><img src="/assets/showcase/desktop-moofize-dashboard.webp" alt="Moofize — tableau de bord" width="1140" height="760"></button>
-      <button class="shot shot--desktop" type="button" style="--l:120px;--t:150px;--w:520px;--r:2deg;--z:2;--ml:-30px;--mt:28px;--mw:320px;--mr:-3deg"><img src="/assets/showcase/desktop-libelaw-dashboard.webp" alt="Libélaw — tableau de bord" width="1140" height="760"></button>
-      <button class="shot shot--mobile" type="button" style="--l:36px;--b:-70px;--w:150px;--r:-6deg;--z:3;--ml:24px;--mb:-60px;--mw:100px;--mr:-6deg"><img src="/assets/showcase/mobile-famyhelp-map.webp" alt="Famyhelp — carte" width="400" height="867"></button>
-      <button class="shot shot--mobile" type="button" style="--rt:120px;--b:-90px;--w:150px;--r:4deg;--z:3;--mrt:90px;--mb:-70px;--mw:100px;--mr:4deg"><img src="/assets/showcase/mobile-yippylingo-home.webp" alt="YippyLingo — accueil" width="400" height="931"></button>
-      <button class="shot shot--mobile" type="button" style="--rt:-20px;--t:24px;--w:160px;--r:8deg;--z:3;--mrt:-10px;--mt:16px;--mw:110px;--mr:7deg"><img src="/assets/showcase/mobile-ping-home.webp" alt="Ping — accueil" width="400" height="870"></button>
+      <button class="shot shot--desktop shot--no-mobile" type="button" style="--l:-60px;--t:36px;--w:520px;--r:-3deg"><img src="/assets/showcase/desktop-moofize-dashboard.webp" srcset="/assets/showcase/desktop-moofize-dashboard-640.webp 640w, /assets/showcase/desktop-moofize-dashboard.webp 1140w" sizes="520px" alt="Moofize — tableau de bord" width="1140" height="760"></button>
+      <button class="shot shot--desktop" type="button" style="--l:120px;--t:150px;--w:520px;--r:2deg;--z:2;--ml:-30px;--mt:28px;--mw:320px;--mr:-3deg"><img src="/assets/showcase/desktop-libelaw-dashboard.webp" srcset="/assets/showcase/desktop-libelaw-dashboard-640.webp 640w, /assets/showcase/desktop-libelaw-dashboard.webp 1140w" sizes="(max-width: 719px) 320px, 520px" alt="Libélaw — tableau de bord" width="1140" height="760" fetchpriority="high"></button>
+      <button class="shot shot--mobile" type="button" style="--l:36px;--b:-70px;--w:150px;--r:-6deg;--z:3;--ml:24px;--mb:-60px;--mw:100px;--mr:-6deg"><img src="/assets/showcase/mobile-famyhelp-map.webp" srcset="/assets/showcase/mobile-famyhelp-map-240.webp 240w, /assets/showcase/mobile-famyhelp-map.webp 400w" sizes="(max-width: 719px) 100px, 150px" alt="Famyhelp — carte" width="400" height="867"></button>
+      <button class="shot shot--mobile" type="button" style="--rt:120px;--b:-90px;--w:150px;--r:4deg;--z:3;--mrt:90px;--mb:-70px;--mw:100px;--mr:4deg"><img src="/assets/showcase/mobile-yippylingo-home.webp" srcset="/assets/showcase/mobile-yippylingo-home-240.webp 240w, /assets/showcase/mobile-yippylingo-home.webp 400w" sizes="(max-width: 719px) 100px, 150px" alt="YippyLingo — accueil" width="400" height="931"></button>
+      <button class="shot shot--mobile" type="button" style="--rt:-20px;--t:24px;--w:160px;--r:8deg;--z:3;--mrt:-10px;--mt:16px;--mw:110px;--mr:7deg"><img src="/assets/showcase/mobile-ping-home.webp" srcset="/assets/showcase/mobile-ping-home-240.webp 240w, /assets/showcase/mobile-ping-home.webp 400w" sizes="(max-width: 719px) 110px, 160px" alt="Ping — accueil" width="400" height="870"></button>
       <figcaption class="mosaic-foot"><output class="pill mosaic-count" aria-live="polite" hidden></output></figcaption>
     </figure>
   </section>
@@ -333,9 +334,9 @@
       </div>
     </div>
     <dl class="facts">
-      <div><span>Malt</span><b>5/5 · réponse &lt; 1 h</b></div>
-      <div><span>LinkedIn</span><b>1 300+ abonnés</b></div>
-      <div><span>Disponibilité</span><b class="mono">[à préciser]</b></div>
+      <div><dt>Malt</dt><dd>5/5 · réponse &lt; 1 h</dd></div>
+      <div><dt>LinkedIn</dt><dd>1 300+ abonnés</dd></div>
+      <div><dt>Disponibilité</dt><dd class="mono">[à préciser]</dd></div>
     </dl>
   </section>
 

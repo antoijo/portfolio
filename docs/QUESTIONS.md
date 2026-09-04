@@ -21,6 +21,16 @@ visuelle), sauf mention contraire.
 4. **Plausible** : script chargé sans SRI (le script évolue côté Plausible, un hash
    figé casserait la mesure). Le compte `antoinejosnin.fr` reste à créer.
 
+## Accessibilité
+
+17. **Accent `#2F7FCB`** : le README annonce 4,6:1 sur blanc, le ratio réel est
+    **4,18:1** (Lighthouse le signale sur tous les CTA et liens), sous le seuil AA
+    (4,5:1) pour du texte courant. J'ai retenu **`#256BB0`** (le hover prévu, 5,5:1)
+    comme accent, avec `#1F5F9E` en hover et `#1A5289` en hover de lien. Une seule
+    ligne à changer dans `:root` si tu préfères revenir au bleu d'origine. Même
+    raison : textes de la carte « En direct avec moi » en blanc opaque, note
+    « Architecture du produit… » (Diagoplus) en gris atténué standard.
+
 ## Écarts README ↔ canvas (tranchés côté canvas)
 
 5. Nom dans la nav : 20 px (canvas) au lieu de 18 px (README).
