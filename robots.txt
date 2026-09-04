@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /projets/leezay/
+
+Sitemap: https://antoinejosnin.fr/sitemap.xml

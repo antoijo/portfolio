@@ -3,26 +3,356 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Page provisoire : valide la chaîne GitHub Pages → antoinejosnin.fr.
-       Remplacée par l'accueil (maquette 1d / 4a du handoff). -->
-  <meta name="robots" content="noindex">
   <title>Antoine Josnin — Product Engineer / CTO, apps mobiles, web &amp; SaaS</title>
-  <style>
-    :root { --bg: #FBF7F0; --ink: #1A1614; --muted: #5A544E; --accent: #2F7FCB; }
-    html { background: var(--bg); color: var(--ink); }
-    body { margin: 0; min-height: 100vh; display: grid; place-items: center;
-           font-family: "DM Sans", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
-    main { padding: 20px; text-align: center; }
-    h1 { margin: 0 0 8px; font-family: "Bricolage Grotesque", system-ui, sans-serif;
-         font-weight: 800; font-size: clamp(32px, 6vw, 48px); line-height: 1; letter-spacing: -.04em; }
-    p { margin: 0; font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 13px; color: var(--muted); }
-    a { color: var(--accent); }
-  </style>
+  <meta name="description" content="Product Engineer / CTO indépendant, Lyon — Savoie. Cadrage produit et développement d'apps mobiles, web et SaaS : un seul interlocuteur pour les deux.">
+  <link rel="canonical" href="https://antoinejosnin.fr/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Antoine Josnin">
+  <meta property="og:title" content="Antoine Josnin — Product Engineer / CTO">
+  <meta property="og:description" content="Je m'occupe du produit autant que du code. App mobile, web &amp; SaaS. Un seul interlocuteur, du premier atelier au store.">
+  <meta property="og:url" content="https://antoinejosnin.fr/">
+  <meta property="og:image" content="https://antoinejosnin.fr/og/accueil.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#FBF7F0">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Antoine Josnin",
+    "jobTitle": "Product Engineer / CTO",
+    "url": "https://antoinejosnin.fr/",
+    "image": "https://antoinejosnin.fr/assets/people/antoine-josnin.png",
+    "email": "mailto:antoine@akago.fr",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Akago SAS",
+      "url": "https://akago.fr/",
+      "address": { "@type": "PostalAddress", "addressLocality": "Challes-les-Eaux", "addressCountry": "FR" }
+    },
+    "address": { "@type": "PostalAddress", "addressLocality": "Challes-les-Eaux", "addressRegion": "Savoie", "addressCountry": "FR" },
+    "sameAs": ["https://www.linkedin.com/in/antoinejosnin/", "https://www.malt.fr/profile/antoinejosnin"],
+    "knowsAbout": ["Flutter", "Node.js", "TypeScript", "Product management", "Mobile apps", "SaaS"]
+  }
+  </script>
+  <script defer data-domain="antoinejosnin.fr" src="https://plausible.io/js/script.js"></script>
 </head>
 <body>
-  <main>
-    <h1>Antoine Josnin</h1>
-    <p>Product Engineer / CTO · App mobile, web &amp; SaaS</p>
-  </main>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="/" aria-label="Antoine Josnin, accueil">
+      <span class="portrait portrait--nav"><img src="/assets/people/antoine-josnin-detoure.png" alt="" width="672" height="672"></span>
+      <span>Antoine Josnin</span>
+    </a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#services">Services</a>
+      <a href="#realisations">Réalisations</a>
+      <a href="#methode">Méthode</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn--nav" href="https://tally.so/r/wdA0DA" data-event="Visio">Réserver une visio</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu" hidden>
+  <div class="menu-bar">
+    <a class="brand" href="/" aria-label="Antoine Josnin, accueil">
+      <span class="portrait portrait--nav"><img src="/assets/people/antoine-josnin-detoure.png" alt="" width="672" height="672"></span>
+      <span>Antoine Josnin</span>
+    </a>
+    <button class="menu-close" type="button" aria-label="Fermer le menu"></button>
+  </div>
+  <div class="menu-body">
+    <nav aria-label="Sections">
+      <ol class="menu-list">
+        <li><a href="#services"><span>Services</span><span class="menu-num">01</span></a></li>
+        <li><a href="#realisations"><span>Réalisations</span><span class="menu-num">02</span></a></li>
+        <li><a href="#methode"><span>Méthode</span><span class="menu-num">03</span></a></li>
+        <li><a href="#parcours"><span>Parcours</span><span class="menu-num">04</span></a></li>
+        <li><a href="#contact"><span>Contact</span><span class="menu-num">05</span></a></li>
+      </ol>
+    </nav>
+    <div class="menu-foot">
+      <p class="menu-links">
+        <a href="https://www.malt.fr/profile/antoinejosnin" rel="noopener">Malt</a>
+        <a href="https://www.linkedin.com/in/antoinejosnin/" rel="noopener">LinkedIn</a>
+        <a href="mailto:antoine@akago.fr">antoine@akago.fr</a>
+      </p>
+      <a class="btn btn--block" href="https://tally.so/r/wdA0DA" data-event="Visio">Réserver une visio de 30 min</a>
+      <p class="menu-place">Lyon · Chambéry · Annecy · Grenoble — à distance partout en France</p>
+    </div>
+  </div>
+</div>
+
+<main>
+
+  <!-- ===== HERO ===== -->
+  <section class="wrap hero" aria-labelledby="titre">
+    <div class="hero-copy">
+      <div class="hero-id">
+        <button class="portrait portrait--hero" type="button" aria-label="Changer l'angle du portrait"><img src="/assets/people/antoine-josnin-detoure.png" alt="Portrait d'Antoine Josnin" width="672" height="672" fetchpriority="high"></button>
+        <p class="mono">Product Engineer / CTO<br><span>App mobile, web &amp; SaaS · Lyon — Savoie</span></p>
+      </div>
+      <h1 class="display" id="titre">Je m'occupe du produit autant que du code.</h1>
+      <p class="lead">Le produit : définir ce qu'on construit, pour qui, dans quel ordre. Le code : le développer et le mettre en production. Un seul interlocuteur pour les deux.</p>
+      <div class="cta-row">
+        <a class="btn" href="https://tally.so/r/wdA0DA" data-event="Visio">Réserver une visio de 30 min</a>
+        <a class="btn btn--secondary" href="#realisations">Voir mes réalisations</a>
+      </div>
+    </div>
+    <figure class="mosaic mosaic--hero" aria-label="Captures d'écran de projets">
+      <button class="shot shot--desktop shot--no-mobile" type="button" style="--l:-60px;--t:36px;--w:520px;--r:-3deg"><img src="/assets/showcase/desktop-moofize-dashboard.webp" alt="Moofize — tableau de bord" width="1140" height="760"></button>
+      <button class="shot shot--desktop" type="button" style="--l:120px;--t:150px;--w:520px;--r:2deg;--z:2;--ml:-30px;--mt:28px;--mw:320px;--mr:-3deg"><img src="/assets/showcase/desktop-libelaw-dashboard.webp" alt="Libélaw — tableau de bord" width="1140" height="760"></button>
+      <button class="shot shot--mobile" type="button" style="--l:36px;--b:-70px;--w:150px;--r:-6deg;--z:3;--ml:24px;--mb:-60px;--mw:100px;--mr:-6deg"><img src="/assets/showcase/mobile-famyhelp-map.webp" alt="Famyhelp — carte" width="400" height="867"></button>
+      <button class="shot shot--mobile" type="button" style="--rt:120px;--b:-90px;--w:150px;--r:4deg;--z:3;--mrt:90px;--mb:-70px;--mw:100px;--mr:4deg"><img src="/assets/showcase/mobile-yippylingo-home.webp" alt="YippyLingo — accueil" width="400" height="931"></button>
+      <button class="shot shot--mobile" type="button" style="--rt:-20px;--t:24px;--w:160px;--r:8deg;--z:3;--mrt:-10px;--mt:16px;--mw:110px;--mr:7deg"><img src="/assets/showcase/mobile-ping-home.webp" alt="Ping — accueil" width="400" height="870"></button>
+      <figcaption class="mosaic-foot"><output class="pill mosaic-count" aria-live="polite" hidden></output></figcaption>
+    </figure>
+  </section>
+
+  <!-- ===== CHIFFRES ===== -->
+  <div class="wrap">
+    <dl class="stats">
+      <div class="stat"><dt class="visually-hidden">Expérience</dt><dd><b>15 ans</b><span>d'expérience</span></dd></div>
+      <div class="stat"><dt class="visually-hidden">Structures</dt><dd><b>20+</b><span>structures accompagnées</span></dd></div>
+      <div class="stat"><dt class="visually-hidden">Production</dt><dd><b>4 ans</b><span>d'apps en production</span></dd></div>
+      <div class="stat"><dt class="visually-hidden">Malt</dt><dd><b>5/5</b><span>sur Malt, réponse en moins d'une heure</span></dd></div>
+    </dl>
+  </div>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="wrap section" id="services" aria-labelledby="t-services">
+    <div class="section-head">
+      <div class="section-intro">
+        <h2 id="t-services">Ce que je fais</h2>
+        <p>Product engineer : je prends en charge le quoi (périmètre, parcours, priorités) autant que le comment (code, mise en production).</p>
+      </div>
+      <p class="kicker">01 — Services</p>
+    </div>
+    <div class="grid-3">
+      <article class="card card-service">
+        <p class="label">01 · Semaines 1 à 4</p>
+        <h3 class="h3">Cadrer et prototyper</h3>
+        <p>Ateliers, parcours utilisateurs, périmètre MVP, prototype Figma testé avec de vrais utilisateurs, cahier des charges, estimation de budget et roadmap technique.</p>
+      </article>
+      <article class="card card-service">
+        <p class="label">02 · Flutter · Node.js · TypeScript</p>
+        <h3 class="h3">Concevoir et développer</h3>
+        <p>Flutter (web, iOS, Android), architecture serveur et API, temps réel, géolocalisation, paiement, hors-ligne, publication App Store / Google Play, comptes développeur au nom du client.</p>
+      </article>
+      <article class="card card-service">
+        <p class="label">03 · Temps partiel</p>
+        <h3 class="h3">CTO partagé</h3>
+        <p>Direction technique à temps partiel, recrutement tech, qualité (code testé, relu, documenté), monitoring, dossiers techniques de financement (BPI, France 2030, CII).</p>
+      </article>
+    </div>
+    <p class="notice"><span class="badge-ink">Agréé CII</span><span>Jusqu'à <strong>20 % des dépenses de prototype remboursées</strong> pour les PME, dispositif prorogé jusqu'à fin 2027. Un MVP en 2 à 3 mois, budget cadré avant de s'engager.</span></p>
+  </section>
+
+  <!-- ===== RÉALISATIONS ===== -->
+  <section class="wrap section" id="realisations" aria-labelledby="t-realisations">
+    <div class="section-head">
+      <h2 id="t-realisations">Projets sélectionnés</h2>
+      <p class="kicker">02 — Réalisations · en production</p>
+    </div>
+    <div class="grid-2">
+      <a class="card card-project" href="/projets/libelaw/">
+        <div class="card-shots card-shots--desktop"><img src="/assets/showcase/desktop-libelaw-dashboard.webp" alt="Libélaw — tableau de bord" width="1140" height="760" loading="lazy"></div>
+        <div class="card-body">
+          <p class="card-meta"><span>LegalTech · SaaS web + mobile</span><span>sept. 2024 → en cours</span></p>
+          <h3>Libélaw</h3>
+          <p>Réseau de confiance entre avocats pour la postulation et la substitution. Cadrage produit avec le CEO, Flutter, architecture serveur, mises en production continues.</p>
+          <span class="link">Voir le projet <span class="arrow">→</span></span>
+        </div>
+      </a>
+      <a class="card card-project" href="/projets/ping/" style="--mosaic-bg:#EFE7DA">
+        <div class="card-shots card-shots--mobile"><img src="/assets/showcase/mobile-ping-home.webp" alt="Ping — accueil" width="400" height="870" loading="lazy"><img src="/assets/showcase/mobile-ping-venue.webp" alt="Ping — lieu" width="400" height="870" loading="lazy"></div>
+        <div class="card-body">
+          <p class="card-meta"><span>App sociale · iOS + Android</span><span>fév. → avr. 2026</span></p>
+          <h3>Ping</h3>
+          <p>Les rencontres dans la vraie vie, dans des lieux partenaires. Cadrage du MVP, géolocalisation et signaux temps réel, arbitrages précision / batterie / vie privée, publication sur les stores.</p>
+          <span class="link">Voir le projet <span class="arrow">→</span></span>
+        </div>
+      </a>
+      <a class="card card-project" href="/projets/moofize/" style="--mosaic-bg:#E4EEE9">
+        <div class="card-shots card-shots--desktop"><img src="/assets/showcase/desktop-moofize-dashboard.webp" alt="Moofize — tableau de bord" width="1140" height="760" loading="lazy"></div>
+        <div class="card-body">
+          <p class="card-meta"><span>Santé B2B · plateforme web</span><span>CTO &amp; lead dev · depuis 2020</span></p>
+          <h3>Moofize</h3>
+          <p>Mise en relation entre professionnels de santé et industrie de la santé : rendez-vous, visio, messagerie, conformité. Toutes les étapes du lancement du SaaS, du conseil aux déploiements.</p>
+          <span class="link">Voir le projet <span class="arrow">→</span></span>
+        </div>
+      </a>
+      <a class="card card-project" href="/projets/famyhelp/" style="--mosaic-bg:#F3E8E4">
+        <div class="card-shots card-shots--mobile"><img src="/assets/showcase/mobile-famyhelp-map.webp" alt="Famyhelp — carte" width="400" height="867" loading="lazy"><img src="/assets/showcase/mobile-famyhelp-demandes.webp" alt="Famyhelp — demandes" width="400" height="866" loading="lazy"></div>
+        <div class="card-body">
+          <p class="card-meta"><span>Aidants · web, iOS, Android</span><span>lead developer · 2020 → 2023</span></p>
+          <h3>FamyHelp</h3>
+          <p>Mise en relation des aidants familiaux pour leur simplifier la tâche et éviter l'isolement. Développement et maintenance cross-platform.</p>
+          <span class="link">Voir le projet <span class="arrow">→</span></span>
+        </div>
+      </a>
+    </div>
+    <div class="grid-5">
+      <a class="card-compact" href="/projets/filou/">
+        <div class="card-compact-head"><span class="card-compact-title"><img class="icon" src="/assets/icons/filou.png" alt="" width="256" height="256" loading="lazy">Filou</span><span class="card-compact-date">2026 · App Store</span></div>
+        <p>La routine des petits : le temps comme un chemin, pour les 3–8 ans. Projet personnel, du cahier des charges à l'App Store en cinq jours.</p>
+      </a>
+      <div class="card-compact">
+        <div class="card-compact-head"><span class="card-compact-title"><img class="icon icon--framed" src="/assets/clients/bulle-autonomie.png" alt="" width="155" height="112" loading="lazy">MyBul · Bulle d'Autonomie</span><span class="card-compact-date">2022–2024</span></div>
+        <p>Aidants familiaux : app mobile, plateforme coordinateur et espace entreprise. Lead dev Flutter, 2022–2024.</p>
+      </div>
+      <a class="card-compact" href="/projets/yippylingo/">
+        <div class="card-compact-head"><span class="card-compact-title"><img class="icon" src="/assets/icons/yippylingo.png" alt="" width="180" height="180" loading="lazy">YippyLingo</span><span class="card-compact-date">2023–2025</span></div>
+        <p>App compagnon d'un kit d'anglais pour enfants. Reprise : corrections, nouvelles fonctionnalités.</p>
+      </a>
+      <div class="card-compact">
+        <div class="card-compact-head"><span class="card-compact-title"><img class="icon icon--framed" src="/assets/icons/diagoplus.svg" alt="" width="32" height="32" loading="lazy">DiagoPlus</span><span class="card-compact-date">2024</span></div>
+        <p>Outil des diagnostiqueurs plomb et amiante. Participation au front Flutter, mobile et web, 2024.</p>
+      </div>
+      <div class="card-compact">
+        <div class="card-compact-head"><span class="card-compact-title"><img class="icon icon--framed" src="/assets/icons/leezay.png" alt="" width="48" height="48" loading="lazy">Leezay</span><span class="card-compact-date">2026 · lancement à venir</span></div>
+        <p>Courtage en assurance-crédit : devis en direct, paiement, sinistres. Front Flutter web, avec Akago, 2026.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MÉTHODE ===== -->
+  <div class="wrap">
+    <section class="method" id="methode" aria-labelledby="t-methode">
+      <div class="method-intro">
+        <p class="kicker">03 — Méthode</p>
+        <h2 id="t-methode">Semaine après semaine, démo chaque vendredi.</h2>
+        <p>Vous possédez tout : code, maquettes, documentation, accès serveurs. Données hébergées en France, privacy by design.</p>
+      </div>
+      <ol class="steps">
+        <li class="step"><span class="kicker">Sem. 1–3</span><div><strong>Cadrage</strong> <span>— problème, utilisateurs, périmètre MVP, budget et roadmap.</span></div></li>
+        <li class="step"><span class="kicker">Sem. 4–6</span><div><strong>Prototype testé</strong> <span>— maquettes Figma cliquables, tests avec de vrais utilisateurs.</span></div></li>
+        <li class="step"><span class="kicker">Sem. 7–12</span><div><strong>Sprints courts</strong> <span>— démo chaque vendredi, 30 minutes de votre côté.</span></div></li>
+        <li class="step"><span class="kicker">Sem. 13</span><div><strong>Mise en ligne</strong> <span>— stores et web, comptes développeur à votre nom.</span></div></li>
+        <li class="step"><span class="kicker">Ensuite</span><div><strong>Accompagnement</strong> <span>— corrections, formation, évolutions si vous le souhaitez.</span></div></li>
+      </ol>
+    </section>
+  </div>
+
+  <!-- ===== TÉMOIGNAGES ===== -->
+  <section class="wrap section" aria-labelledby="t-temoignages">
+    <div class="section-head">
+      <h2 id="t-temoignages">Ils en parlent</h2>
+      <p class="kicker">04 — Témoignages</p>
+    </div>
+    <div class="grid-2">
+      <blockquote class="card quote">
+        <p>« Très professionnel et très efficace… d'une grande écoute et de très bons conseils, il a su aller au-delà de nos attentes. Ses comptes-rendus fréquents nous ont permis de voir l'avancée du travail au quotidien. »</p>
+        <footer class="quote-by"><img src="/assets/icons/moofize.png" alt="" width="512" height="512" loading="lazy"><div><b>Anne Latanière, Moofize</b><span class="mono">Avis Malt · 30/09/2024</span></div></footer>
+      </blockquote>
+      <blockquote class="card quote">
+        <p>« Ça fait 2 ans qu'on bosse avec la team Akago : livraison en avance, features bonus et exigence qualité au top. Une équipe qui n'a pas peur des sprints et qui délivre. »</p>
+        <footer class="quote-by"><img src="/assets/icons/libelaw.png" alt="" width="192" height="192" loading="lazy"><div><b>Maxence Laurent, CEO Libélaw</b><span class="mono">2 ans de collaboration</span></div></footer>
+      </blockquote>
+    </div>
+    <p class="quote-more">Guillaume Thiallet et 4 autres personnes recommandent Antoine sur Malt.</p>
+  </section>
+
+  <!-- ===== LOGOS ===== -->
+  <section class="wrap section" aria-label="Ils m'ont fait confiance">
+    <p class="kicker">05 — Ils m'ont fait confiance</p>
+    <ul class="grid-6 logos">
+      <li class="logo-tile"><img src="/assets/clients/libelaw-full-logo.png" alt="Libélaw" width="272" height="112" loading="lazy"></li>
+      <li class="logo-tile"><img src="/assets/clients/moofize-full-logo.png" alt="Moofize" width="273" height="112" loading="lazy"></li>
+      <li class="logo-tile"><img src="/assets/clients/ping-full-logo.png" alt="Ping" width="272" height="112" loading="lazy"></li>
+      <li class="logo-tile"><img src="/assets/clients/famyhelp-full-logo.png" alt="Famyhelp" width="272" height="112" loading="lazy"></li>
+      <li class="logo-tile"><img src="/assets/clients/yippylingo.png" alt="YippyLingo" width="286" height="112" loading="lazy"></li>
+      <li class="logo-tile"><img src="/assets/clients/leezay-full-logo.png" alt="Leezay" width="272" height="112" loading="lazy"></li>
+      <li class="logo-tile"><img src="/assets/clients/diagoplus.png" alt="DiagoPlus" width="345" height="112" loading="lazy"></li>
+      <li class="logo-tile"><img src="/assets/clients/bulle-autonomie.png" alt="MyBul" width="155" height="112" loading="lazy"></li>
+      <li class="logo-tile"><img src="/assets/clients/lyon-full-logo.png" alt="Erasme · Grand Lyon" width="272" height="112" loading="lazy"></li>
+      <li class="logo-tile"><img src="/assets/clients/inook.png" alt="Inook" width="280" height="112" loading="lazy"></li>
+      <li class="logo-tile"><img src="/assets/clients/younow.png" alt="YouNow" width="279" height="112" loading="lazy"></li>
+      <li class="logo-tile"><img src="/assets/clients/zicomatic-full-logo.png" alt="Zicomatic" width="272" height="112" loading="lazy"></li>
+    </ul>
+  </section>
+
+  <!-- ===== PARCOURS ===== -->
+  <section class="wrap section timeline-wrap" id="parcours" aria-labelledby="t-parcours">
+    <div class="timeline-intro">
+      <p class="kicker">06 — Parcours</p>
+      <h2 id="t-parcours">Quinze ans, un fil rouge.</h2>
+      <p>Musées, aidants familiaux, apprentissage, santé : des projets utiles, dans la durée. Hors écran : montagne, nature, hockey.</p>
+    </div>
+    <ol class="timeline">
+      <li class="tl"><span class="label">2011</span><div><strong>Ingénieur SILR, Polytech Nantes.</strong> <span>Stage chez Inook : Anooki Jump, jeu iPhone publié sur l'App Store en sept. 2011, puis serious game connecté à un véhicule en temps réel.</span></div></li>
+      <li class="tl"><span class="label">2012 → 2018</span><div><strong>biin, Lyon. Développeur puis directeur technique pendant près de 5 ans.</strong> <span>Dispositifs interactifs pour musées, événements et ville numérique ; plateforme biinlab pour écrans tactiles de grande taille ; direction des développements web, Windows et mobile, avant-vente et gestion de projet.</span></div></li>
+      <li class="tl"><span class="label">2018 → 2019</span><div><strong>Pause, voyage en Afrique.</strong> <span>Puis Museomix, hackathon culturel, en 2019.</span></div></li>
+      <li class="tl"><span class="label">depuis 2020</span><div><strong>Indépendant.</strong> <span>Conception et développement d'apps mobiles et web, accompagnement technique de startups (cahier des charges, roadmap, budget, recrutements). CTO et lead dev de Moofize.</span></div></li>
+      <li class="tl"><span class="label">depuis juin 2023</span><div><strong>Fondateur d'Akago.</strong> <span>Un collectif d'indépendants seniors (recherche utilisateur, UX/UI, développement, infrastructure) que je réunis autour des projets à impact : une équipe complète, à la demande, du cadrage à la publication sur les stores.</span></div></li>
+    </ol>
+  </section>
+
+  <!-- ===== SEUL OU EN ÉQUIPE ===== -->
+  <section class="wrap section" aria-labelledby="t-equipe">
+    <div class="section-head">
+      <h2 id="t-equipe">Seul ou en équipe</h2>
+      <p class="kicker">07 — Deux portes, une visio</p>
+    </div>
+    <div class="grid-2">
+      <div class="door door--accent">
+        <p class="kicker">Un seul interlocuteur</p>
+        <h3>En direct avec moi</h3>
+        <p>Cadrage, développement, CTO partagé. Relation directe, décisions rapides, engagement plus léger.</p>
+        <a class="btn btn--cream" href="https://tally.so/r/wdA0DA" data-event="Visio">Réserver une visio de 30 min</a>
+      </div>
+      <div class="door door--surface">
+        <p class="door-brand"><img src="/assets/akago/logo.png" alt="" width="393" height="393" loading="lazy"><span class="kicker">Collectif · akago.fr</span></p>
+        <h3>Avec le collectif Akago</h3>
+        <p>Recherche utilisateur, UX/UI, développement, publication sur les stores. Une équipe complète quand le projet le demande.</p>
+        <a class="link" href="https://akago.fr/" rel="noopener">akago.fr <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="wrap contact" id="contact" aria-labelledby="t-contact">
+    <div class="contact-copy">
+      <h2 id="t-contact">Parlons de votre projet, 30 minutes suffisent.</h2>
+      <div class="cta-row">
+        <a class="btn" href="https://tally.so/r/wdA0DA" data-event="Visio">Réserver une visio de 30 min</a>
+        <a class="btn btn--secondary" href="mailto:antoine@akago.fr">antoine@akago.fr</a>
+      </div>
+    </div>
+    <dl class="facts">
+      <div><span>Malt</span><b>5/5 · réponse &lt; 1 h</b></div>
+      <div><span>LinkedIn</span><b>1 300+ abonnés</b></div>
+      <div><span>Disponibilité</span><b class="mono">[à préciser]</b></div>
+    </dl>
+  </section>
+
+</main>
+
+<footer class="wrap site-footer">
+  <nav aria-label="Pied de page">
+    <a href="#services">Services</a>
+    <a href="#realisations">Réalisations</a>
+    <a href="#methode">Méthode</a>
+    <a href="#parcours">Parcours</a>
+    <a href="#contact">Contact</a>
+    <a href="/mentions-legales/">Mentions légales</a>
+  </nav>
+  <p class="mono">AKAGO SAS, Challes-les-Eaux · Fait en Savoie</p>
+</footer>
+
+<script src="/site.js" defer></script>
 </body>
 </html>
