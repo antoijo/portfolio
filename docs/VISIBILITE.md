@@ -26,10 +26,10 @@ akago.fr). Établi le 4 septembre 2026, jour de la mise en ligne.
 
 ### Côté Antoine (comptes)
 
-- [ ] **Google Search Console** : ajouter la propriété « Domaine » `antoinejosnin.fr`
-      (validation par enregistrement TXT chez Scaleway, valeur fournie par Google),
-      puis soumettre `https://antoinejosnin.fr/sitemap.xml`. Variante : propriété
-      « Préfixe d'URL » + balise `google-site-verification` à me donner, je la pose.
+- [x] **Google Search Console** (4/09 au soir) : propriété validée. Le jeton Google est
+      posé des deux façons : enregistrement TXT `google-site-verification=…` à la racine
+      de la zone Scaleway (propriété « Domaine ») et balise `<meta name="google-site-verification">`
+      dans `index.html` (propriété « Préfixe d'URL »). Sitemap soumis.
 - [ ] **Bing Webmaster Tools** : importer depuis Search Console (une fois la
       propriété validée) — c'est ce que consultent ChatGPT / Copilot.
 - [ ] **Plausible** : ajouter le site `antoinejosnin.fr` au compte, créer les goals
