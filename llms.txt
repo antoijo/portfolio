@@ -23,7 +23,7 @@ Points clés :
   possède tout : code, maquettes, documentation, accès serveurs. Données hébergées
   en France, privacy by design.
 - Seul ou en équipe : en direct, ou avec le collectif Akago (recherche utilisateur,
-  UX/UI, développement) quand le projet le demande, Antoine restant l'interlocuteur
+  UX/UI, développement de flux complexes) quand le projet le demande, Antoine restant l'interlocuteur
   unique.
 - Premier échange : visio découverte de 30 minutes.
 
