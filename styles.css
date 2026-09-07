@@ -155,6 +155,8 @@ body.menu-open{overflow:hidden}
 .mosaic-foot{position:absolute;left:32px;bottom:24px;z-index:5;display:flex;flex-wrap:wrap;gap:8px}
 .pill{display:inline-block;padding:6px 12px;border-radius:var(--r-pill);background:var(--bg);border:1px solid var(--line);font:400 12px/1.5 var(--font-mono);color:var(--ink)}
 .mosaic-art{position:absolute;z-index:2;pointer-events:none}
+.pill--status{display:inline-flex;align-items:center;gap:8px;padding:4px 12px 4px 9px;font-size:13px;line-height:1.5;font-weight:400}
+.pill--status::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent)}
 
 /* ===== BANDEAU CHIFFRES ===== */
 .stats{display:grid;grid-template-columns:repeat(4,1fr);margin-top:24px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}

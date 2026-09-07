@@ -64,8 +64,8 @@ visuelle), sauf mention contraire.
     parcours, « réponse < 1 h »). Un seul DOM : la copie de 1d est servie partout.
     Seule exception, les descriptions de la frise Méthode sont masquées en mobile
     comme sur 4a.
-16. Placeholders conservés tels quels : `[à préciser]` (disponibilité),
-    `[… : à compléter]` (résultats Ping, Moofize, FamyHelp).
+16. Placeholders : la disponibilité est devenue une pastille « Disponible » (7/09) ;
+    restent `[… : à compléter]` pour les résultats Ping, Moofize, FamyHelp.
 19. Portrait et logos « HD » : ces items viennent de la liste B du TODO du handoff
     (portrait détouré marqué provisoire, logos MyBul / Diagoplus / Leezay en icônes).
     Antoine trouve le rendu actuel correct → considérés comme réglés, rien à fournir.
