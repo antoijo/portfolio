@@ -24,7 +24,7 @@ Points clés :
   en France, privacy by design.
 - Seul ou en équipe : en direct, ou avec le collectif Akago (recherche utilisateur,
   UX/UI, développement de flux complexes) quand le projet le demande, Antoine restant l'interlocuteur
-  unique.
+  unique. Le format se choisit ensemble lors de la première visio.
 - Premier échange : visio découverte de 30 minutes.
 
 ## Réalisations
