@@ -271,6 +271,8 @@ a.card-compact:hover{transform:translateY(-3px);border-color:var(--ink)}
 .facts{display:flex;flex-direction:column;gap:12px;font-size:15px}
 .facts div{display:flex;justify-content:space-between;gap:16px;padding-bottom:10px;border-bottom:1px solid var(--line)}
 .facts dt{color:var(--muted)}
+.fact-link{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;text-decoration-color:var(--line);transition:color var(--ease-fast),text-decoration-color var(--ease-fast)}
+.fact-link:hover{color:var(--ink);text-decoration-color:var(--ink)}
 .facts dd{margin:0;font-weight:600;text-align:right}
 .facts .mono{font-weight:400}
 
