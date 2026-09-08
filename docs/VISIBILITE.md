@@ -18,8 +18,11 @@ akago.fr). Établi le 4 septembre 2026, jour de la mise en ligne.
 - [x] Page `404.html` de marque, `noindex,follow`, chemins absolus.
 - [x] `llms.txt` à la racine (résumé pour les assistants IA). À tenir à jour quand
       les pages ou les chiffres changent.
-- [x] Plausible : script servi en local (`assets/js/stats.js`, comme akago.fr),
-      événements `Visio` (CTA de réservation) et `Store` (badges stores).
+- [~] Mesure d'audience : **aucune pour l'instant** (8/09). Le plan Plausible
+      d'Antoine est limité à un site (akago.fr) ; le script et le proxy ont été
+      retirés, les mentions légales disent « aucun outil de mesure d'audience ».
+      Les attributs `data-event="Visio"` / `"Store"` restent sur les CTA pour
+      rebrancher un outil plus tard (Umami Cloud gratuit, ou plan Plausible Growth).
 - [x] Performance : Lighthouse mobile 94 / 100 / 100 / 100, polices préchargées,
       images WebP dimensionnées, `fetchpriority` sur l'image LCP.
 - [x] HTTPS imposé.
@@ -32,8 +35,8 @@ akago.fr). Établi le 4 septembre 2026, jour de la mise en ligne.
       dans `index.html` (propriété « Préfixe d'URL »). Sitemap soumis.
 - [ ] **Bing Webmaster Tools** : importer depuis Search Console (une fois la
       propriété validée) — c'est ce que consultent ChatGPT / Copilot.
-- [ ] **Plausible** : ajouter le site `antoinejosnin.fr` au compte, créer les goals
-      `Visio` et `Store` (Site Settings → Goals → Custom event).
+- [ ] **Mesure d'audience** : choisir un outil (Umami Cloud gratuit, 3 sites, ou
+      plan Plausible Growth) ; je rebranche le script et les goals `Visio` / `Store`.
 - [ ] **Malt / LinkedIn** : pointer les profils vers `https://antoinejosnin.fr`
       (cohérence d'entité, backlinks).
 
@@ -48,8 +51,9 @@ akago.fr). Établi le 4 septembre 2026, jour de la mise en ligne.
       « À propos », et le JSON-LD `ProfessionalService` d'akago.fr déclare `founder`
       avec l'URL du portfolio.
 - [ ] **Pages « réalisations » = déjà là** : les 8 pages projets répondent à la longue
-      traîne (« application pour avocats », « app pour aidants »…). Compléter les
-      résultats chiffrés (Ping, Moofize, FamyHelp) dès que fournis.
+      traîne (« application pour avocats », « app pour aidants »…). Les placeholders de
+      résultats chiffrés (Ping, Moofize, FamyHelp) ont été retirés le 8/09, faute de
+      chiffres ; à réintroduire si Antoine en obtient.
 - [ ] **Guides** : akago.fr porte déjà les guides génériques (coût d'une app, MVP,
       CII…). Pour le portfolio, une ou deux pages « point de vue » (ex. « CTO à temps
       partiel : quand, pourquoi, combien ») auraient plus de sens que de dupliquer.

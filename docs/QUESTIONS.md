@@ -17,8 +17,8 @@ visuelle), sauf mention contraire.
 3. **Réservation** : tous les CTA pointent sur le Tally d'Akago
    (`tally.so/r/wdA0DA`). Quand Calendly (ou autre) est prêt, une seule URL à
    remplacer dans les pages (`grep -l tally.so`).
-4. **Plausible** : script chargé sans SRI (le script évolue côté Plausible, un hash
-   figé casserait la mesure). Le compte `antoinejosnin.fr` reste à créer.
+4. **Plausible retiré** (8/09) : le plan est limité à un site (akago.fr). Aucune
+   mesure d'audience pour l'instant ; cf. `docs/VISIBILITE.md` pour les options.
 
 ## Accessibilité
 
@@ -64,8 +64,9 @@ visuelle), sauf mention contraire.
     parcours, « réponse < 1 h »). Un seul DOM : la copie de 1d est servie partout.
     Seule exception, les descriptions de la frise Méthode sont masquées en mobile
     comme sur 4a.
-16. Placeholders : la disponibilité est devenue une pastille « Disponible » (7/09) ;
-    restent `[… : à compléter]` pour les résultats Ping, Moofize, FamyHelp.
+16. Placeholders : plus aucun. Disponibilité → pastille « Disponible » (7/09) ;
+    résultats chiffrés Ping, Moofize, FamyHelp retirés (8/09), phrase seule conservée.
+    Relecture complète du site faite le 7–8/09 avec Antoine (11 points, tous tranchés).
 19. Portrait et logos « HD » : ces items viennent de la liste B du TODO du handoff
     (portrait détouré marqué provisoire, logos MyBul / Diagoplus / Leezay en icônes).
     Antoine trouve le rendu actuel correct → considérés comme réglés, rien à fournir.

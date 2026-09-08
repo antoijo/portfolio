@@ -1,4 +1,4 @@
-/* antoinejosnin.fr — menu mobile, portrait, mosaïques, événements Plausible. Tout fonctionne sans JS. */
+/* antoinejosnin.fr — menu mobile, portrait, mosaïques. Tout fonctionne sans JS. */
 (function () {
   "use strict";
   var d = document;
@@ -68,9 +68,4 @@
     });
   });
 
-  /* ----- Plausible : événements Visio et Store ----- */
-  d.addEventListener("click", function (e) {
-    var a = e.target.closest("[data-event]");
-    if (a && window.plausible) window.plausible(a.getAttribute("data-event"));
-  });
 })();
