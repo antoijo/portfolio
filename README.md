@@ -18,7 +18,7 @@ long, une page par projet, un objectif (la visio découverte de 30 min).
 
 HTML et CSS écrits à la main, **aucun framework, aucun build**. Une seule feuille
 `styles.css`, un `site.js` minimal (menu mobile, portrait, mosaïques), polices
-self-hostées, Plausible sans cookies, formulaire de réservation Tally.
+self-hostées, GoatCounter sans cookie, réservation de visio via Calendly.
 
 ## Structure
 

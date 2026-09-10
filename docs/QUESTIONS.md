@@ -14,9 +14,10 @@ visuelle), sauf mention contraire.
    reprennent des captures et citations déjà publiques sur akago.fr.
 2. **Malt / LinkedIn** : URLs retrouvées par recherche
    (`malt.fr/profile/antoinejosnin`, `linkedin.com/in/antoinejosnin`). À confirmer.
-3. **Réservation** : tous les CTA pointent sur le Tally d'Akago
-   (`tally.so/r/wdA0DA`). Quand Calendly (ou autre) est prêt, une seule URL à
-   remplacer dans les pages (`grep -l tally.so`).
+3. **Réservation** : depuis le 10/09, tous les CTA pointent sur le Calendly
+   d'Antoine (`calendly.com/antoine-akago/visio-30-min`, événement « Visio
+   découverte · 30 min », Google Meet, lun/mar/jeu 9 h–17 h). Le Tally d'Akago
+   avait servi de placeholder du 4 au 10/09.
 4. **Plausible retiré** (8/09) : le plan est limité à un site (akago.fr). Aucune
    mesure d'audience pour l'instant ; cf. `docs/VISIBILITE.md` pour les options.
 

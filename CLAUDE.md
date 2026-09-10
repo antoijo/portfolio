@@ -20,11 +20,12 @@ typographique, palette crème, **accent bleu** `#2F7FCB` au lieu de l'orange Aka
 - Un seul `styles.css` (< 30 ko), CSS vanilla, tokens dans `:root`. Sections
   balisées par des bandeaux `/* ===== ZONE ===== */`.
 - `site.js` (< 3 ko) : menu mobile (focus piégé, `Esc`, `inert`), cycle d'angle du
-  portrait, cycle des captures dans les mosaïques, Plausible. Tout doit rester
+  portrait, cycle des captures dans les mosaïques, événements GoatCounter. Tout doit rester
   lisible et navigable sans JS.
 - Polices self-hostées en woff2 (Bricolage Grotesque variable, DM Sans variable,
   JetBrains Mono 400/500), sous-ensemble latin, `preload` des critiques.
-- Formulaires délégués à Tally ; contact en `mailto:`.
+- Réservation de visio déléguée à Calendly (`calendly.com/antoine-akago/visio-30-min`) ;
+  contact en `mailto:`.
 
 ## Conventions
 
