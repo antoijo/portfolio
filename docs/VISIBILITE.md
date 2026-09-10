@@ -22,7 +22,7 @@ akago.fr). Établi le 4 septembre 2026, jour de la mise en ligne.
       d'Antoine est limité à un site (akago.fr) ; le script et le proxy ont été
       retirés, les mentions légales disent « aucun outil de mesure d'audience ».
       Les attributs `data-event="Visio"` / `"Store"` restent sur les CTA pour
-      rebrancher un outil plus tard (Umami Cloud gratuit, ou plan Plausible Growth).
+      rebrancher un outil plus tard (plan Plausible Growth ou auto-hébergement).
 - [x] Performance : Lighthouse mobile 94 / 100 / 100 / 100, polices préchargées,
       images WebP dimensionnées, `fetchpriority` sur l'image LCP.
 - [x] HTTPS imposé.
@@ -36,8 +36,11 @@ akago.fr). Établi le 4 septembre 2026, jour de la mise en ligne.
 - [x] **Bing Webmaster Tools** (8/09) : propriété `antoinejosnin.fr` importée depuis
       Search Console, sitemap soumis et crawlé le 8/09 (statut Success, 9 URL
       découvertes). C'est ce que consultent ChatGPT / Copilot.
-- [ ] **Mesure d'audience** : choisir un outil (Umami Cloud gratuit, 3 sites, ou
-      plan Plausible Growth) ; je rebranche le script et les goals `Visio` / `Store`.
+- [ ] **Mesure d'audience** : pas d'outil gratuit convaincant avec événements
+      personnalisés (Umami Cloud : un seul site en gratuit, plus cher que Plausible
+      au-delà). Options restantes : plan Plausible Growth, ou Umami/Plausible CE
+      auto-hébergé sur un serveur Akago. En attente ; les `data-event` `Visio` /
+      `Store` restent en place pour rebrancher.
 - [ ] **Malt / LinkedIn** : pointer les profils vers `https://antoinejosnin.fr`
       (cohérence d'entité, backlinks).
 

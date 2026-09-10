@@ -1,7 +1,8 @@
 # Publier un projet en attente d'accord
 
 Une page est construite mais gardée hors ligne tant que l'accord écrit du client
-n'est pas là : **Leezay** (Rémy Barbeault, après la 1.0). MyBul et Diagoplus ont été
+n'est pas là : **Leezay** — hors ligne **jusqu'à nouvel ordre d'Antoine**, en aucun cas
+avant la sortie officielle du produit (décision du 10/09/2026). MyBul et Diagoplus ont été
 publiés le 4 septembre 2026 avec cette procédure. Les visuels Leezay sont convertis
 dans `assets/showcase/` mais ignorés par git (`.gitignore`), donc absents du dépôt
 public ; la page est `noindex, nofollow`, hors `sitemap.xml`, non liée depuis
