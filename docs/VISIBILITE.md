@@ -18,11 +18,12 @@ akago.fr). Établi le 4 septembre 2026, jour de la mise en ligne.
 - [x] Page `404.html` de marque, `noindex,follow`, chemins absolus.
 - [x] `llms.txt` à la racine (résumé pour les assistants IA). À tenir à jour quand
       les pages ou les chiffres changent.
-- [~] Mesure d'audience : **aucune pour l'instant** (8/09). Le plan Plausible
-      d'Antoine est limité à un site (akago.fr) ; le script et le proxy ont été
-      retirés, les mentions légales disent « aucun outil de mesure d'audience ».
-      Les attributs `data-event="Visio"` / `"Store"` restent sur les CTA pour
-      rebrancher un outil plus tard (plan Plausible Growth ou auto-hébergement).
+- [x] Mesure d'audience : **GoatCounter** (10/09), hébergé sur goatcounter.com, code de
+      site `antoinejosnin` (tableau de bord `antoinejosnin.goatcounter.com`). Gratuit,
+      sans cookie, données agrégées, serveurs Hetzner (Finlande / Allemagne). Script
+      `gc.zgo.at/count.js` sur les 12 pages, événements `Visio` et `Store` envoyés par
+      `site.js` depuis les attributs `data-event`. Plausible retiré le 8/09 (plan limité
+      à un site).
 - [x] Performance : Lighthouse mobile 94 / 100 / 100 / 100, polices préchargées,
       images WebP dimensionnées, `fetchpriority` sur l'image LCP.
 - [x] HTTPS imposé.
@@ -36,11 +37,8 @@ akago.fr). Établi le 4 septembre 2026, jour de la mise en ligne.
 - [x] **Bing Webmaster Tools** (8/09) : propriété `antoinejosnin.fr` importée depuis
       Search Console, sitemap soumis et crawlé le 8/09 (statut Success, 9 URL
       découvertes). C'est ce que consultent ChatGPT / Copilot.
-- [ ] **Mesure d'audience** : pas d'outil gratuit convaincant avec événements
-      personnalisés (Umami Cloud : un seul site en gratuit, plus cher que Plausible
-      au-delà). Options restantes : plan Plausible Growth, ou Umami/Plausible CE
-      auto-hébergé sur un serveur Akago. En attente ; les `data-event` `Visio` /
-      `Store` restent en place pour rebrancher.
+- [x] **Mesure d'audience** : compte GoatCounter créé par Antoine le 10/09 (code
+      `antoinejosnin`) ; site branché le même jour.
 - [x] **LinkedIn** (10/09) : `https://antoinejosnin.fr` ajouté dans les coordonnées du
       profil, type « Portfolio professionnel », à côté d'akago.fr (Entreprise).
 - [ ] **Malt** : pas de champ site web sur un profil freelance (la section « Influence »
@@ -70,5 +68,5 @@ akago.fr). Établi le 4 septembre 2026, jour de la mise en ligne.
 ## Phase 3 — Mesure
 
 - [ ] Revue mensuelle : requêtes et positions Search Console, conversions `Visio`
-      dans Plausible, Core Web Vitals.
-- [ ] Referrers IA dans Plausible (`claude.ai`, `chatgpt.com`, `perplexity.ai`).
+      dans GoatCounter, Core Web Vitals.
+- [ ] Referrers IA dans GoatCounter (`claude.ai`, `chatgpt.com`, `perplexity.ai`).

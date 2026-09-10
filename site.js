@@ -68,4 +68,11 @@
     });
   });
 
+  /* ----- GoatCounter : événements Visio (CTA de réservation) et Store (badges) ----- */
+  d.addEventListener("click", function (e) {
+    var a = e.target.closest("[data-event]");
+    if (!a || !window.goatcounter || !goatcounter.count) return;
+    var name = a.getAttribute("data-event");
+    goatcounter.count({ path: name, title: name, event: true });
+  });
 })();
