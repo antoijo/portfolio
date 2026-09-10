@@ -41,8 +41,11 @@ akago.fr). Établi le 4 septembre 2026, jour de la mise en ligne.
       au-delà). Options restantes : plan Plausible Growth, ou Umami/Plausible CE
       auto-hébergé sur un serveur Akago. En attente ; les `data-event` `Visio` /
       `Store` restent en place pour rebrancher.
-- [ ] **Malt / LinkedIn** : pointer les profils vers `https://antoinejosnin.fr`
-      (cohérence d'entité, backlinks).
+- [x] **LinkedIn** (10/09) : `https://antoinejosnin.fr` ajouté dans les coordonnées du
+      profil, type « Portfolio professionnel », à côté d'akago.fr (Entreprise).
+- [ ] **Malt** : pas de champ site web sur un profil freelance (la section « Influence »
+      n'accepte que Behance, GitHub et Stack Overflow). Seule voie : un élément de
+      portfolio (titre + texte + image) qui mentionne l'URL. Décision d'Antoine.
 
 ## Phase 2 — Propositions (à valider)
 
