@@ -33,8 +33,9 @@ akago.fr). Établi le 4 septembre 2026, jour de la mise en ligne.
       posé des deux façons : enregistrement TXT `google-site-verification=…` à la racine
       de la zone Scaleway (propriété « Domaine ») et balise `<meta name="google-site-verification">`
       dans `index.html` (propriété « Préfixe d'URL »). Sitemap soumis.
-- [ ] **Bing Webmaster Tools** : importer depuis Search Console (une fois la
-      propriété validée) — c'est ce que consultent ChatGPT / Copilot.
+- [x] **Bing Webmaster Tools** (8/09) : propriété `antoinejosnin.fr` importée depuis
+      Search Console, sitemap soumis et crawlé le 8/09 (statut Success, 9 URL
+      découvertes). C'est ce que consultent ChatGPT / Copilot.
 - [ ] **Mesure d'audience** : choisir un outil (Umami Cloud gratuit, 3 sites, ou
       plan Plausible Growth) ; je rebranche le script et les goals `Visio` / `Store`.
 - [ ] **Malt / LinkedIn** : pointer les profils vers `https://antoinejosnin.fr`
